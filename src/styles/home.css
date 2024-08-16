@@ -7,7 +7,7 @@ body {
   background-image: url("https://i.pinimg.com/originals/da/58/27/da582791457dc1929269b9b2fd301eaa.jpg");
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Corben";
+  font-family: "Russo One";
 }
 
 #logo {
@@ -15,31 +15,51 @@ body {
   height: auto;
 }
 
+.subtitle {
+  color: #ffe81f;
+  text-shadow: 6px 2px 1px rgb(0, 0, 0);
+  font-size: 3.5em;
+}
+
+.git-img {
+  max-height: 25px;
+  max-width: 25px;
+}
+
 .navbar-brand {
   color: #ffe81f;
   text-decoration: none;
 }
 
-h5 {
-  font-weight: bold;
+a:hover {
+  color: #e2cf21d3;
 }
+
+/* h5 {
+  font-weight: bold;
+} */
 
 .cards {
   box-shadow: 5px -2px 16px 1px #000;
-  background-color: #747373fd;
+  background-color: #08070794;
   border-color: #ffe81f;
+  backdrop-filter: blur(10px);
+  color: #ffe81f;
 }
 
 .modal-content {
   box-shadow: 5px -2px 16px 1px #000;
-  background-color: #a39999fd;
+  background-color: #08070757;
+  backdrop-filter: blur(10px);
   border-color: #ffe81f;
-  font-weight: 400;
+  /* font-weight: 400; */
+  color: #ffe81f;
+  /* text-shadow: 2px 2px 1px rgb(0, 0, 0); */
 }
 
-h4 {
+/* h4 {
   font-weight: 700;
-}
+} */
 
 .modal-title {
   font-weight: 900;
@@ -91,7 +111,7 @@ h4 {
 
 h1.favorites-title {
   color: #ffe81f;
-  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  text-shadow: 8px 5px 4px rgb(0, 0, 0);
   font-size: 70px;
 }
 

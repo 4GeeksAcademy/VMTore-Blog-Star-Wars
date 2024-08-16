@@ -1,5 +1,6 @@
 import React from "react";
 import starwars from "../../img/starwars-logo.png";
+import git_icon from "../../img/GH.png";
 import "../../styles/home.css";
 
 export const Home = () => (
@@ -8,8 +9,6 @@ export const Home = () => (
     <p>
       <img id="logo" src={starwars} />
     </p>
-    <a href="#" className="btn btn-warning mt-5">
-      May the force be with you
-    </a>
+    <p className="mt-5 subtitle">May the force be with you</p>
   </div>
 );
